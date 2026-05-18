@@ -165,8 +165,8 @@ body {
 .nav-links a:hover::after { width: 100%; }
 
 .nav-date {
-  font-family: "Cormorant Garamond", Georgia, serif;
-  font-weight: 300;
+  font-family: "Lora", serif;
+  font-weight: 400;
   font-size: 0.85rem;
   letter-spacing: 0.22em;
   color: var(--text-secondary);
@@ -273,8 +273,8 @@ body {
 }
 
 .hero-date {
-  font-family: "Cormorant Garamond", Georgia, serif;
-  font-weight: 300;
+  font-family: "Lora", serif;
+  font-weight: 400;
   font-size: clamp(1.5rem, 2.8vw, 2.2rem);
   letter-spacing: 0.5em;
   color: var(--text-secondary);
@@ -404,7 +404,7 @@ body {
 
 .countdown-num {
   display: block;
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Lora", serif;
   font-weight: 300;
   font-size: clamp(2.5rem, 5vw, 4.5rem);
   line-height: 1;
@@ -412,6 +412,7 @@ body {
   color: var(--text-primary);
   margin-bottom: 0.5rem;
   transition: color 0.3s ease;
+  font-variant-numeric: tabular-nums;
 }
 
 .countdown-lbl {
@@ -446,9 +447,9 @@ body {
 }
 
 .section-num {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Lora", serif;
   font-size: 0.75rem;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.12em;
   color: var(--rose);
   padding-top: 0.5rem;
@@ -1151,6 +1152,7 @@ body::before {
   background: rgba(255,255,255,0.45);
   color: var(--sage-mid);
   opacity: 1;
+  font-family: "Lora", serif;
 }
 
 .hero-tag {
@@ -1262,9 +1264,9 @@ body::before {
 
 .hero-floating-card strong {
   display: block;
-  font-family: "Playfair Display", Georgia, serif;
-  font-size: 1.28rem;
+  font-family: "Lora", serif;
   font-weight: 400;
+  font-size: 1.28rem;
 }
 
 .img-ph {
@@ -1374,8 +1376,9 @@ body::before {
 .experience-grid span {
   margin-bottom: auto;
   color: var(--rose-pale);
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Lora", serif;
   font-size: 2.2rem;
+  font-weight: 300;
 }
 
 .experience-grid h3 {
